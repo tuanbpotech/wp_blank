@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Allow: /wp-includes/js/
+Disallow: /search?q=*
+Disallow: *?replytocom
+Disallow: */attachment/*
+Disallow: /images/
+Disallow: /forum/
+Sitemap: http://trungtamkidsmusic.com/sitemap.xml

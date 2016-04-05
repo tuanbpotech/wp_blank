@@ -704,4 +704,5 @@ function edButton(id, display, tagStart, tagEnd, access) {
 	edButtons[120] = new qt.TagButton( 'more', 'more', '<!--more-->\n\n', '', '', '', '', { ariaLabel: quicktagsL10n.more } );
 	edButtons[140] = new qt.CloseButton();
 
+
 })();

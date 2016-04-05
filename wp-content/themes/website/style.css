@@ -1,0 +1,68 @@
+/*
+Theme Name: Website
+Theme URI: http://url-web.com/
+Author: TVGroup Team
+Author URI: https://huecis.com/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Hyundai Hue simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Hyundai, Hyundai Hue, car, theme car, buy car
+Text Domain: otohyundaihue
+ 
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/********************************************************************************
+                                    Style main  
+*********************************************************************************/
+
+.aligncleft{
+    float: left;
+}
+.alignright {
+    float: right;
+}
+ .aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+.single .entry-content {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.single .entry-content .description{
+    font-style: italic;
+    /* font-weight: bold; */
+}
+.blog-one .blog-two-content a:hover,
+.single .entry-header a:hover{
+    color: #1faabe;
+}
+/*.single .blog-one-content {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}*/
+
+.single a{
+    color: #333;
+}
+
+.single .entry-content p{
+    text-align: justify;
+    font-size: 14px;
+    color: #000;
+}
+.list-6 li a:hover{
+    color: #000;
+}
+
+
+/********************************************************************************
+                                    Style Team Detail  
+*********************************************************************************/
+.about-wrap{
+    background-color: #fff!important;
+    padding: 20px 30px!important;
+}
